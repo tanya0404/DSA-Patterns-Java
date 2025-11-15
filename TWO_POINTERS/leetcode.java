@@ -54,3 +54,49 @@ class Solution {
 
 
 
+
+1. Two Sum     (Extra)
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer,Integer> map=new HashMap<>();
+
+        for(int i=0;i<nums.length;i++){
+            int diff=target-nums[i];
+            if(map.containsKey(diff)){
+                return new int[]{map.get(diff),i};
+            }
+            map.put(nums[i],i);
+        }
+        return new int[]{-1,-1};
+    }
+}
+
+
+
+
+19. Remove Nth Node From End of List
+
+class Solution {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode s=head;
+        ListNode f=head;
+        int l=0;
+        int current=1;
+        while(f!=null){
+            f=f.next;
+            l++;
+        }
+         if (n == l) {
+            return head.next;
+        }
+
+        while(current<(l-n)){
+            s=s.next;
+            current++;
+        }
+        s.next=s.next.next;
+        return head;
+    }
+}
+

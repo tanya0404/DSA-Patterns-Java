@@ -7,7 +7,7 @@ This repository collects Two Pointers pattern problems that I'm solving to pract
 | 1 | 88. Merge Sorted Array | https://leetcode.com/problems/merge-sorted-array/ | [✔] |
 | 2 | 125. Valid Palindrome | https://leetcode.com/problems/valid-palindrome/ | [✔] |
 | 3 | 15. 3Sum | https://leetcode.com/problems/3sum/ | [x] |
-| 4 | 19. Remove Nth Node From End of List | https://leetcode.com/problems/remove-nth-node-from-end-of-list/ | [x] |
+| 4 | 19. Remove Nth Node From End of List | https://leetcode.com/problems/remove-nth-node-from-end-of-list/ | [✔] |
 | 5 | 75. Sort Colors | https://leetcode.com/problems/sort-colors/ | [x] |
 | 6 | 151. Reverse Words in a String | https://leetcode.com/problems/reverse-words-in-a-string/ | [x] |
 | 7 | 2193. Minimum Number of Moves to Make Palindrome | https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/ | [x] |
