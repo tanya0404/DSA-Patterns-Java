@@ -23,7 +23,7 @@ This repository collects Two Pointers pattern problems that I'm solving to pract
 | 17 | 977. Squares of a Sorted Array | https://leetcode.com/problems/squares-of-a-sorted-array/ | [✔] |
 | 18 | 344. Reverse String | https://leetcode.com/problems/reverse-string/ | [✔] |
 | 19 | 680. Valid Palindrome II | https://leetcode.com/problems/valid-palindrome-ii/ | [✔] |
-| 20 | 2824. Count Pairs Whose Sum is Less than Target | https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/ | [x] |
+| 20 | 2824. Count Pairs Whose Sum is Less than Target | https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/description/ | [✔] |
 | 21 | 1. Two Sum | https://leetcode.com/problems/two-sum/description/ | [x] |
 | 22 | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/ | [x] |
 | 23 | Sort Two Colors (external) | https://www.programiz.com/java-programming/online-compiler/ | [x] |
