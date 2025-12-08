@@ -100,3 +100,39 @@ class Solution {
     }
 }
 
+
+
+
+
+
+75. Sort Colors
+
+class Solution {
+    public void swap(int s,int e,int[] nums){
+        int temp=nums[s];
+        nums[s]=nums[e];
+        nums[e]=temp;
+    }
+    public void sortColors(int[] nums) {
+        int s=0;
+        int idx=0;
+        int e=nums.length-1;
+
+        while(idx<=e){
+            if(nums[idx]==0){
+            swap(idx,s,nums);
+            idx++;
+            s++;
+        }
+            else if(nums[idx]==1) {
+                idx++;
+            }
+
+           else{
+            swap(idx,e,nums);
+            e--;
+        }
+    }
+    }
+}
+
